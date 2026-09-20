@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Computational verification for k-independence in P4-tidy graphs"
+type: software
+authors:
+  - family-names: "Cappelle"
+    given-names: "Márcia R."
+  - family-names: "Carvalho"
+    given-names: "Luan Cesar D."
+version: 1.0.0
+date-released: 2026-09-20
+license: MIT
+abstract: >-
+  Computational verification code for the formulas for the k-independence
+  number of spiders and quasi-spiders used in the manuscript
+  "k-independence in P4-tidy graphs". The verification considers m in
+  {2,3,4}, every labelled simple graph on a head R with at most four
+  vertices, the two spider types, the eight quasi-spider types, and all
+  relevant values of k.
+keywords:
+  - graph theory
+  - k-independence
+  - P4-tidy graphs
+  - spiders
+  - quasi-spiders
+  - computational verification
