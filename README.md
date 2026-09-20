@@ -4,6 +4,12 @@ This repository contains the exhaustive verification script associated with the 
 
 The script independently checks the closed formulas for the k-independence number of the spider and quasi-spider structures summarized in Table 1 of the manuscript.
 
+## Archived version
+
+The verification code is permanently archived on Zenodo:
+
+**DOI:** https://doi.org/10.5281/zenodo.22864016
+
 ## What is verified
 
 For every generated instance, the script:
