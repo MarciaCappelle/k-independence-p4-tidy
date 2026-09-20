@@ -5,9 +5,11 @@ type: software
 authors:
   - family-names: "Cappelle"
     given-names: "Márcia R."
+    affiliation: "Universidade Federal de Goiás"
   - family-names: "Carvalho"
     given-names: "Luan Cesar D."
-version: 1.0.0
+    affiliation: "Universidade Federal de Goiás"
+version: 1.0.1
 date-released: 2026-09-20
 license: MIT
 abstract: >-
