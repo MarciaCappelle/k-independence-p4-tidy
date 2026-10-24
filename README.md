@@ -10,7 +10,7 @@ The results produced by the algorithm are compared with exact values obtained by
 
 The verification code is archived on Zenodo:
 
-**DOI:** https://doi.org/10.5281/zenodo.22864016
+**DOI:** https://doi.org/10.5281/zenodo.23619639
 
 The repository is being updated to include the complete verification suite. A new Zenodo version will be published after the updated GitHub release.
 
