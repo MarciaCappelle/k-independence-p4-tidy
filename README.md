@@ -21,7 +21,7 @@ The repository is being updated to include the complete verification suite. A ne
 - `p4tidy_dp.py`: closed formulas from Table 1 and the dynamic programming algorithms.
 - `test_all.py`: main verification program.
 - `test_log.txt`: output of the complete verification run.
-- `test_legacy_coverage.py`: exhaustive verification of the Table 1 formulas for all labelled head graphs of order at most four.
+- `test_legacy_coverage.py`: exhaustive verification of the Table 1 formulas for all labelled head graphs of order at most four, independently of the decomposition-tree construction and labelling procedures.
 
 ## Requirements
 
