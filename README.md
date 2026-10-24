@@ -21,6 +21,7 @@ The repository is being updated to include the complete verification suite. A ne
 - `p4tidy_dp.py`: closed formulas from Table 1 and the dynamic programming algorithms.
 - `test_all.py`: main verification program.
 - `test_log.txt`: output of the complete verification run.
+- `test_legacy_coverage.py`: exhaustive verification of the Table 1 formulas for all labelled head graphs of order at most four.
 
 ## Requirements
 
@@ -99,6 +100,21 @@ For the corpus containing graphs of order at most 13, the recorded verification 
 In the regression test, disabling the exclusion of intra-module edges caused construction failures in **4,280 graphs**.
 
 The complete recorded output is available in `test_log.txt`.
+## Additional exhaustive verification of Table 1
+
+The script `test_legacy_coverage.py` independently verifies the closed formulas for thin and thick spiders and all eight quasi-spider types.
+
+It considers spider weights m = 2, 3, 4 and every labelled simple graph on a head R of order 0 to 4.
+
+The verification covers 2,280 structural instances and 24,054 comparisons with brute-force values, with no discrepancies.
+
+Run it using:
+
+```bash
+python3 test_legacy_coverage.py
+```
+
+Unlike the main corpus, this verification allows arbitrary head graphs, including graphs that are not P4-tidy.
 
 ## Scope and limitations
 
