@@ -1,0 +1,34 @@
+corpus: graphs up to 13 vertices
+  7421 graphs generated
+
+[1] P_4-tidy check (direct definition): 7421/7421 pass
+
+[2] labelled tree T(G) built: 7421/7421 pass
+    node coverage over all trees:
+      exceptional C5               291
+      exceptional P5               311
+      exceptional P5bar            291
+      head empty                   4695
+      head nonempty                7904
+      join                         7116
+      leaf                         15819
+      quasi thick (C^f)            179
+      quasi thick (C^t)            179
+      quasi thick (X^f)            179
+      quasi thick (X^t)            179
+      quasi thin (C^f)             1855
+      quasi thin (C^t)             1833
+      quasi thin (X^f)             1833
+      quasi thin (X^t)             1855
+      spider thick                 472
+      spider thin                  4035
+      union                        6456
+
+[3] alpha_k: algorithm vs brute force over all k: 83904/83904 pass
+
+[4] regression with the intra-module exclusion disabled:
+      construction fails : 4280
+      wrong alpha_k      : 0
+      unaffected         : 3141
+
+all stages passed  (83904 alpha_k comparisons, 42883 tree nodes, 131.2s)
