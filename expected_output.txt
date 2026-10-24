@@ -1,3 +1,0 @@
-All tests passed.
-Structural instances: 2280
-Comparisons: 24054
