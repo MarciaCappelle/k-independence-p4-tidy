@@ -1,7 +1,12 @@
 """Exhaustive labelled-head regression for Table 1 (original verification scope).
 
 Run separately: python3 test_legacy_coverage.py
-This deliberately tests formulas even for heads that are not P4-tidy.
+This test exercises the closed formulas of Table 1 in isolation: the structural
+label is supplied directly rather than read from the decomposition tree, so a
+failure here is a failure of a formula and not of the labelling procedure. It
+enumerates every labelled simple graph on at most four vertices as the head R,
+and reproduces exactly the coverage of the earlier verification script that this
+package supersedes: 2,280 structural instances and 24,054 comparisons.
 """
 from itertools import combinations
 from p4tidy_core import spider, alpha_all, add_edge
